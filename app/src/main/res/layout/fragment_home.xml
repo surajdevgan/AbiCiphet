@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            selected_color="#555555"
+            unselected_color="#55555555"
+            shape="oval"
+            selected_padding_left="3dp"
+            selected_padding_right="3dp"
+            unselected_padding_left="3dp"
+            unselected_padding_right="3dp"
+            selected_width="8dp"
+            selected_height="8dp"
+            unselected_width="4dp"
+            unselected_height="4dp"
+            />
+
+    </RelativeLayout>
+</FrameLayout>
